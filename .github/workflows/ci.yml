@@ -2,8 +2,9 @@ name: "Sample React ci pipeline workflow"
 
 on:
   push:
-    branches: -main
-      -master
+    branches: #-main
+      - main
+      - master
 
 jobs:
   build-on-test:
